@@ -1,0 +1,343 @@
+@media (min-width: 1280px)
+    {
+        .l11 {
+            width: 40% !important;
+        }
+        .l12 {
+            width: 40% !important;
+        }
+        #i1 {
+            position: absolute;
+            top: 126px;
+            left: 292px;
+            width: 150px;
+            height: auto;
+        }
+        #i2 {
+            width: 750px;
+            position: relative;
+            top: 40px;
+            left: 0px !important;
+        }
+        #i3 {
+            width: 150px;
+            height: auto;
+            position: absolute;
+            top: 242px;
+            left: 73px;
+        }
+        #i4 {
+            position: absolute;
+            top: 181px;
+            left: 494px;
+            width: 150px;
+            height: auto;
+        }
+        #i5 {
+            width: 150px;
+            height: auto;
+            position: absolute;
+            top: 376px;
+            left: 136px;
+        }
+        #i6 {
+            position: absolute;
+            top: 354px;
+            left: 324px;
+            width: 150px;
+            height: auto;
+        }
+        #i7 {
+            width: 150px;
+            height: auto;
+            position: absolute;
+            top: 352px;
+            left: 498px;;
+        }
+        #i8 {
+            width: 150px;
+            height: auto;
+            position: absolute;
+            top: 512px;
+            left: 298px;
+        }
+        #i9 {
+            width: 735px;
+            height: 360px;
+            height: 400px;
+            position: absolute;
+            top: 437px;
+            left: 20px;
+        }
+        .i1 {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 200px;
+            margin-right: 20px;
+            margin-left: 205px;
+        }
+        .i1 img {
+            margin-top: 0px;
+            width: 304px;
+        }
+        .l12 h1 {
+            font-size: 49px;
+            margin-left: 117px !important;
+            width: 100% !important;
+        }
+        .l12 h6 {
+            font-size: 24px !important;
+            text-align: justify;
+            padding-left: 0px !important;
+            margin-left: 205px !important;
+        }
+        mark {
+            background-color: #98f9d0 !important;
+            color: #999 !important;
+            font-size: 16px;
+        }
+        .l6h h1 {
+            margin: 0 auto;
+            width: 45%;
+        }
+        .l12 h6 {
+
+            font-size: 23px !important;
+            text-align: justify;
+            padding-left: 0px !important;
+            margin-left: 213px !important;
+        }
+        #lg {
+            position: relative;
+            margin-left: 219px;
+            width: 32%;
+            font-size:25px;
+            margin-top: 0px;
+        }
+        #advt {
+            font-size: 32px;
+            width: 78%;
+            margin-left: 194px;
+            margin-top: 0px;
+        }
+        .l4h h1 {
+            font-size: 62px;
+        }
+        .l5
+        {
+            width: 100% !important;
+            margin: 0 auto;
+            margin-left:0px;
+        }
+        .l5i1, .l5i2, .l5i3
+        {
+            width: 33% !important;
+            float: left;
+            padding-bottom: 72px;
+        }
+        .l5i1 img
+        {
+            width: 123px;
+            height: 137px;
+            margin-top: 0px;
+            margin-left: 99px;
+            width: 175px;
+            height: 175px;
+            margin-left: 32px;
+        }
+        .l5i2 img
+        {
+            width: 123px;
+            height: 137px;
+            margin-left: 155px;
+            margin-top:0px;
+            width: 175px;
+            height: 175px;
+            margin-left:0px;
+        }
+        .l5i3 img
+        {
+            width: 123px;
+            height: 137px;
+            margin-left: 206px;
+            margin-top:0px;
+            width: 175px;
+            height: 175px;
+            margin-left:0px;
+        }
+        .l5i1 p
+        {
+            width: 60px;
+            /*margin-left: 118px;*/
+            margin-left: 169px;
+        }
+        .l5i2 p
+        {
+            width: 60px;
+            /*margin-left: 182px;*/
+            margin-left: 147px;
+        }
+        .l5i3 p
+        {
+            width: 60px;
+            /*margin-left: 229px;*/
+            margin-left: 155px;
+        }
+        .l6h p {
+            font-size: 21px;
+            text-align: justify;
+            color: #999999;
+            margin: 0 auto;
+            width: 100%;
+            line-height: 35px;
+        }
+        .l6h h1 {
+            font-size: 41px;
+            color: #0099ff;
+            text-align: center;
+            margin: 0 auto;
+            width: 61%;
+        }
+
+        .l7 h1 {
+            font-size: 44px;
+            color: #fff;
+            padding-top: 20px;
+        }
+        .l7i {
+            height: 400px;
+            margin-top: 198px;
+        }
+        .l7p p {
+            font-size: 21px;
+            /* text-align: center; */
+            margin: 0 auto;
+            width: 94%;
+        }
+        textarea {
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            text-align: center;
+            background-color: #f5f5f5;
+            width: 99%;
+        }
+        .contact_right .col-md-8 {
+            float: left;
+            text-align: justify;
+            padding-left: 42px;
+        }
+        .bottom_section
+        {
+            background:url("../adv_img/img_geographic_map.png") no-repeat;
+            background-size: 100% 100%;
+            width:100%;
+            height:882px !important;
+        }
+        section#contact {
+            background-size: 100% 100%;
+            width:100% !important;
+            height:917px !important;
+        }
+        #contact h2 {
+            color: #fff;
+            margin-bottom: 0px;
+            padding-top: 20px;
+        }
+        .contact_right li, .contact_right li a {
+            font-size: 21px;
+            line-height: 30px;
+            color: #B4B4B4;
+        }
+        .text-left {
+            text-align: left;
+            padding-top:0px;
+        }
+        .social_media .sici_icon {
+            width: 29px;
+            height: 37px;
+            background: #000;
+            text-align: center;
+            line-height: 39px;
+            /* margin: 0px 8px; */
+            border-radius: 100%;
+            float: left;
+            margin: 0px 1px;
+        }
+        .copyright img {
+            width: 81px;
+        }
+        form#contact-form {
+            padding-left: 0px;
+            padding: 0 10px;
+        }
+        .navbar-default .navbar-nav > li > a {
+            font-size: 17px;
+        }
+        .footer-menu_one,.footer-menu_two,.footer-menu_three,.copyright {
+            width: 24% !important;
+            float: left;
+            padding-top: 20px;
+        }
+        .copyright img {
+            width: 120px;
+        }
+        .social_media {
+            font-size: 19px;
+        }
+        .social_media .sici_icon {
+            width: 29px;
+            height: 30px;
+            background: #000;
+            line-height: 28px;
+            margin: 1px 1px;
+            border-radius: 100%;
+            float: left;
+
+        }
+        .l7p p,.dbt_cont p,.rt_cont p {
+            text-align: justify;
+        }
+        .dbt_cont p,.rt_cont p {
+            font-size:21px;
+            line-height:35px;
+        }
+        #contact h2 {
+            color: #fff;
+            margin-bottom: 0px;
+
+        }
+        .contact_right hr {
+            margin: 18px auto;
+            width: 60%;
+            margin-left: 20px;
+        }
+        span.soci_title {
+            float: left;
+            line-height: 40px;
+            font-size: 20px;
+        }
+        #contact h2 {
+            color: #fff;
+            margin-bottom: 6px;
+            margin-top: 0px;
+            padding-top: 13px;
+        }
+        .du1, .du2, .du3 {
+            width: 33%;
+        }
+        .du1 img,.du3 img {
+            width: 45%;
+        }
+        .du2 img
+        {
+            width:81%;
+        }
+        .foot_copy p {
+            padding:10px !important;
+        }
+    .sub_container_contact {
+        margin: 0 auto;
+        width: 80% !important;
+    }
+}*/

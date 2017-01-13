@@ -1,0 +1,240 @@
+#navigation {
+    background: #fff;
+    z-index: 9999;
+    width: 100%;
+    box-sizing: border-box;
+    border: none !IMPORTANT;
+    box-shadow: none!important;
+    position: relative !IMPORTANT;
+}
+
+hr.border_top_img {
+    margin: 0 auto;
+    width: 80%;
+}
+section#core_values
+{
+    background: url(../img/core.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+section#core_values {
+    padding: 44px 0px;
+}
+
+section#core_values .section-heading h2
+{
+    color: #fff;
+    font-size: 44px;
+}
+
+#core_values .container {
+    width: 82%;
+}
+.our_core_border {
+    border: 2px solid #fff;
+    padding: 36px;
+    margin-bottom: 30px;
+    min-height: 228px;
+}
+
+.our_core_border h3
+{
+    color: #fff;
+    font-size: 34px;
+}
+
+#core_values p {
+    font-size:26px;
+    line-height: 32px;
+    color: #fff;
+}
+.our_core_border:hover {
+    background: #00c198;
+}
+.expected_div .col-md-2 {
+    width: 20%;
+}
+.expected_div p {
+    margin-top: 20px;
+}
+
+h2.send_resume {
+    margin-top: 36px;
+    font-size: 46px;
+    color: #fff;
+}
+
+p.send_mail_id a {
+    color: #fff;
+    font-size: 40px;
+}
+
+.color-dark .section-heading h2 {
+    color: #111;
+    font-size: 44px;
+}
+
+.cereers_tab_menu {
+    background-color: #f7f7f7;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+section#current_opening .nav-tabs>li>a {
+    background: none !Important;
+    border: none;
+    padding: 10px 72px !important;
+    font-size: 20px;
+}
+
+section#current_opening .nav-tabs
+{
+    border: none!important;
+}
+
+section#current_opening .nav-tabs>li.active>a {
+    border-top: 3px solid #ec7811 !IMPORTANT;
+    border-radius: 0;
+}
+
+section#current_opening .nav-tabs>li>a {
+    color: #666!important;
+}
+
+
+
+
+@media (min-width: 1280px) {
+    .social_media .sici_icon {
+        width: 40px !important;
+        height: 40px !important;
+        background: #000;
+        text-align: center;
+        line-height: 34px !important;
+        margin: 0px 5px !important;
+        border-radius: 100%;
+        float: left;
+    }
+}
+
+
+
+/*.tooltip1 {*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*border-bottom: 1px dotted black;*/
+/*}*/
+
+/*.tooltip1 .tooltiptext1 {*/
+    /*visibility: hidden;*/
+    /*width: 120px;*/
+    /*background-color: #1fcdaa;*/
+    /*color: #fff;*/
+    /*text-align: center;*/
+    /*border-radius: 6px;*/
+    /*padding: 0px 0;*/
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    /*bottom: 99%;*/
+    /*left: 50%;*/
+    /*margin-left: 86px;*/
+    /*font-size: 14px;*/
+/*}*/
+
+/*.tooltip1 .tooltiptext1::after {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*top: 100%;*/
+    /*left: 50%;*/
+    /*margin-left: -5px;*/
+    /*border-width: 5px;*/
+    /*border-style: solid;*/
+    /*border-color:border-color: #1fcdaa transparent transparent transparent;;*/
+/*}*/
+
+/*.tooltip1 .tooltiptext1 {*/
+    /*visibility: visible;*/
+/*}*/
+
+#admin li a {
+    color: #000;
+    font-size: 24px;
+}
+
+#admin li {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    line-height: 44px;
+    color: #000;
+}
+
+
+#hr li a {
+    color: #000;
+    font-size: 24px;
+}
+
+#hr li {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    line-height: 44px;
+    color: #000;
+}
+
+#developer li a {
+    color: #000;
+    font-size: 24px;
+}
+
+#developer li {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    line-height: 44px;
+    color: #000;
+}
+
+
+#bce li a {
+    color: #000;
+    font-size: 30px;
+}
+
+#bce li {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    line-height: 44px;
+    color: #000;
+}
+
+
+#support li a {
+    color: #000;
+    font-size: 24px;
+}
+
+#support li {
+    float: left;
+    width: 100%;
+    text-align: left;
+    line-height: 44px;
+    font-size: 24px;
+    color: #000;
+}
+
+#top_mage img
+{
+    width: 100%;
+}
+
+#top_mage img {
+    width: 100%;
+}

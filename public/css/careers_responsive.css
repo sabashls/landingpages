@@ -1,0 +1,431 @@
+@media (max-width: 767px ){
+
+    #core_values .container {
+        width: 100%!important;
+    }
+}
+@media (max-width: 480px ) {
+    .site-logo img {
+        width: 135px;
+    }
+
+    .color-dark .section-heading h2 {
+        color: #111;
+        font-size: 18px !important;
+    }
+
+    .our_core_border h3 {
+        color: #fff;
+        font-size: 24px !important;
+    }
+
+    #core_values p {
+        font-size: 18px !important;
+        line-height: 25px !important;
+        color: #fff;
+    }
+
+    .our_core_border {
+        padding: 20px !important;
+        min-height: 195px !important;
+    }
+
+    .expected_div .col-md-2 {
+        width: 100% !important;
+    }
+
+    .expected_div img {
+        width: 100px;
+    }
+
+    h2.send_resume {
+        margin-top: 20px !important;
+        font-size: 30px !important;
+    }
+
+    p.send_mail_id a {
+        font-size: 24px !important;
+    }
+
+    .nav-tabs > li {
+
+        width: 100% !important;
+    }
+
+    #admin li a, #hr li a, #developer li a, #bce li a, #support li a {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    #admin li, #hr li, #developer li, #bce li, #support li {
+
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0px 15px;
+
+    }
+    .copyright_img {
+        margin: 0 auto;
+        width: 272px;
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 481px ) and (max-width: 639px) {
+    .site-logo img {
+        width: 135px;
+    }
+
+    .color-dark .section-heading h2 {
+        color: #111;
+        font-size: 18px !important;
+    }
+
+    .our_core_border h3 {
+        color: #fff;
+        font-size: 24px !important;
+    }
+
+    #core_values p {
+        font-size: 18px !important;
+        line-height: 25px !important;
+        color: #fff;
+    }
+
+    .our_core_border {
+        padding: 20px !important;
+        min-height: 195px !important;
+    }
+
+    .expected_div .col-md-2 {
+        width: 100% !important;
+    }
+
+    .expected_div img {
+        width: 100px;
+    }
+
+    h2.send_resume {
+        margin-top: 20px !important;
+        font-size: 30px !important;
+    }
+
+    p.send_mail_id a {
+        font-size: 24px !important;
+    }
+
+    .nav-tabs > li {
+
+        width: 100% !important;
+    }
+
+    #admin li a, #hr li a, #developer li a, #bce li a, #support li a {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    #admin li, #hr li, #developer li, #bce li, #support li {
+
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0px 15px;
+
+    }
+    .copyright_img {
+        margin: 0 auto;
+        width: 272px;
+        padding: 0;
+    }
+
+}
+
+
+
+
+@media (min-width: 640px ) and (max-width: 767px) {
+    .site-logo img {
+        width: 168px;
+    }
+
+    .color-dark .section-heading h2 {
+        color: #111;
+        font-size: 24px !important;
+    }
+
+    .our_core_border h3 {
+        color: #fff;
+        font-size: 26px !important;
+    }
+
+    #core_values p {
+        font-size: 22px ;
+        line-height: 32px !important;
+        color: #fff;
+    }
+
+    .our_core_border {
+        padding: 20px !important;
+        min-height: 195px !important;
+    }
+
+    .expected_div .col-md-2 {
+        width: 20% !important;
+        float: left;
+    }
+
+    .expected_div p {
+        font-size: 14px !important;
+    }
+
+    .expected_div img {
+        width: 100px;
+    }
+
+    h2.send_resume {
+        margin-top: 6px !important;
+        font-size: 24px !important;
+    }
+
+    p.send_mail_id a {
+        font-size: 24px !important;
+    }
+    section#current_opening .nav-tabs > li > a {
+        background: none !Important;
+        border: none;
+        padding: 10px 0px !important;
+        font-size: 15px!important;
+    }
+    .nav-tabs > li {
+
+        width: 20% !important;
+    }
+
+    #admin li a, #hr li a, #developer li a, #bce li a, #support li a {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    #admin li, #hr li, #developer li, #bce li, #support li {
+
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0px 15px;
+
+    }
+    .copyright_img {
+        margin: 0 auto;
+        width: 272px;
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 768px ) and (max-width: 991px) {
+    .site-logo img {
+        width: 168px;
+    }
+    #core_values .container {
+        width: 95%!important;
+    }
+
+    .color-dark .section-heading h2 {
+        color: #111;
+        font-size: 24px !important;
+    }
+
+    .our_core_border h3 {
+        color: #fff;
+        font-size: 26px !important;
+    }
+
+    #core_values p {
+        font-size: 22px ;
+        line-height: 32px !important;
+        color: #fff;
+    }
+
+    .our_core_border {
+        padding: 20px !important;
+        min-height: 195px !important;
+    }
+
+    .expected_div .col-md-2 {
+        width: 20% !important;
+        float: left;
+    }
+
+    .expected_div p {
+        font-size: 16px !important;
+    }
+
+    .expected_div img {
+        width: 100px;
+    }
+
+    h2.send_resume {
+        margin-top: 6px !important;
+        font-size: 24px !important;
+    }
+
+    p.send_mail_id a {
+        font-size: 24px !important;
+    }
+    section#current_opening .nav-tabs > li > a {
+        background: none !Important;
+        border: none;
+        padding: 10px 0px !important;
+        font-size: 15px!important;
+    }
+    .nav-tabs > li {
+
+        width: 20% !important;
+    }
+
+    #admin li a, #hr li a, #developer li a, #bce li a, #support li a {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    #admin li, #hr li, #developer li, #bce li, #support li {
+
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0px 15px;
+
+    }
+    .copyright_img {
+        margin: 0 auto;
+        width: 272px;
+        padding: 0;
+    }
+
+}
+
+
+
+
+@media (min-width: 992px ) and (max-width: 1279px) {
+    .site-logo img {
+        width: 195px;
+    }
+    #core_values .container {
+        width: 95%!important;
+    }
+
+    .color-dark .section-heading h2 {
+        color: #111;
+        font-size: 24px !important;
+    }
+
+    .our_core_border h3 {
+        color: #fff;
+        font-size: 26px !important;
+    }
+
+    #core_values p {
+        font-size: 22px ;
+        line-height: 32px !important;
+        color: #fff;
+    }
+
+    .our_core_border {
+        padding: 20px !important;
+        min-height: 195px !important;
+    }
+
+    .expected_div .col-md-2 {
+        width: 20% !important;
+        float: left;
+    }
+
+    .expected_div p {
+        font-size: 16px !important;
+    }
+
+    .expected_div img {
+        width: 100px;
+    }
+
+    h2.send_resume {
+        margin-top: 6px !important;
+        font-size: 24px !important;
+    }
+
+    p.send_mail_id a {
+        font-size: 24px !important;
+    }
+    section#current_opening .nav-tabs > li > a {
+        background: none !Important;
+        border: none;
+        padding: 10px 0px !important;
+        font-size: 15px!important;
+    }
+    .nav-tabs > li {
+
+        width: 20% !important;
+    }
+
+    #admin li a, #hr li a, #developer li a, #bce li a, #support li a {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    #admin li, #hr li, #developer li, #bce li, #support li {
+
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0px 15px;
+
+    }
+    .copyright_img {
+        margin: 0 auto;
+        width: 272px;
+        padding: 0;
+    }
+
+}
+
+
+@media (max-width: 991px ) {
+    footer .col-md-8 {
+        width: 100% !important;
+        text-align: center;
+        min-height: 0px !important;
+    }
+
+}
+
+
+
+@media (max-width: 1279px ) {
+
+
+    .social_media {
+        margin-top: 20px !IMPORTANT;
+        float: none !important;
+        margin: 0 auto;
+        display: table;
+        width: 282px !important;
+    }
+    .social_media .sici_icon {
+        width: 40px;
+        height: 40px;
+        background: #000;
+        text-align: center;
+        line-height: 45px;
+        margin: 0px 5px !important;
+        border-radius: 100%;
+        float: left;
+    }
+
+}

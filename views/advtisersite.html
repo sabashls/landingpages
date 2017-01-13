@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile app marketing | Advertising Platform |Video Marketing | Online Advertising</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Innovative Media Buying Platform for Reaching your Target Audience.">
+    <meta name="keywords" content="Video ads, Audio ads, Poster ads, App downloads, Advertising Companies, App Promotion, Mobile Ad, Mobile advertising networks">
+    <meta name="google-site-verification" content="fyWj-2Cca4PLJJj3r6Z2iHfRPHdVZcgTzDbipgXIx48" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script scr="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link type="text/css" href="adv_css/advtstyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="adv_css/bootstrap.css">
+    <link rel="stylesheet" href="adv_css/animate.css">
+    <link rel="stylesheet" href="adv_css/font-awesome.css">
+    <link rel="stylesheet" href="adv_css/font-awesome.min.css">
+    <link rel="stylesheet" href="adv_css/media.css">
+    <script src="adv_js/angular.min.js"></script>
+    <script src="adv_js/angular.js"></script>
+    <script src="adv_js/bootstrap.js"></script>
+    <script src="adv_js/bootstrap.min.js"></script>
+    <script src="adv_js/WOW.js"></script>
+    <script src="adv_js/wow.min.js"></script>
+    <script src="adv_js/.js"></script>
+    <script src="adv_js/jquery.js"></script>
+    <script src="adv_js/jarallax-0.2.2.js"></script>
+
+
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            $(window).scroll(function() {
+                $(".slideanim").each(function(){
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+    </script>
+    <style type="text/css">
+
+        svg {
+            /*background:url("img/img_retarget.png");*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+
+    <script type="text/javascript">
+        $(window).scroll(function(){
+
+            var a = 400;
+            var pos = $(window).scrollTop();
+            if(pos > a) {
+                $(".top").css({
+                    opacity:'1'
+                });
+                $(".top").find("p").css({
+                    opacity:'1'
+                });
+
+            }
+            else {
+                $(".top").css({
+                    opacity:'0'
+                });
+            }
+            if(pos > 1800 )
+            {
+                $(".l7").css({
+                    opacity:'1'
+                });
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+
+            var b = 1500;
+            var pos = $(window).scrollTop();
+            if(pos > b) {
+                $(".bottom_section").css({
+                    opacity:'1'
+                });
+                $(".bottom_section").find("p").css({
+                    opacity:'1'
+                });
+
+            }
+            else {
+                $(".bottom_section").css({
+                    opacity:'0'
+                });
+            }
+            if(pos > 1800 )
+            {
+                $(".bottom_section").css({
+                    opacity:'1'
+                });
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+
+            var c = 2000;
+            var pos = $(window).scrollTop();
+            if(pos > c) {
+                $(".demographic").css({
+                    opacity:'1'
+                });
+                $(".demographic").find("p").css({
+                    opacity:'1'
+                });
+
+            }
+            else {
+                $(".demographic").css({
+                    opacity:'0'
+                });
+            }
+            if(pos > 2300 )
+            {
+                $(".demographic").css({
+                    opacity:'1'
+                });
+            }
+        });
+    </script>
+    <style>
+        <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color:#fafafa;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .stickyhero-tabs,
+        .stickyslide {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: left;
+            height: 70px;
+            position: relative;
+            background: #fff;
+            width: 100%;
+        }
+        .stickyhero-tabs h1,
+        .stickyslide h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 1rem;
+        }
+        .stickyhero-tabs h3,
+        .stickyslide h3 {
+            font-size: 1rem;
+            letter-spacing: 0.3rem;
+            opacity: 0.6;
+        }
+
+        .stickyhero-tabs-container {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 47px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            background: #2C3E50;
+            background: #f8f8f8;
+            z-index: 10;
+        }
+        .stickyhero-tabs-container--top {
+            position: fixed;
+            top: 0;
+            -webkit-transition: all 0.9s ease;
+            transition: all 0.9s ease;
+            display: block;
+        }
+
+        .stickyhero-tab {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            color: #fff;
+            letter-spacing: 0.1rem;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            font-size: 22px;
+        }
+        .stickyhero-tab:hover {
+            color: #06f;
+            background: rgba(102, 177, 241, 0.8);
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            border-bottom: 2px solid #06f;
+        }
+        .stickyhero-tab:active {
+            border-bottom: 2px solid #06f !important;
+        }
+        .stickyhero-tab-slider {
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 6px;
+            background: #66B1F1;
+            -webkit-transition: left 0.5s ease;
+            transition: left 0.5s ease;
+        }
+    </style>
+
+    <script>
+        class StickyNavigation {
+            constructor() {
+                this.currentId = null;
+                this.currentTab = null;
+                this.tabContainerHeight = 70;
+                let self = this;
+                $('.stickyhero-tab').click(function () {
+                    self.onTabClick(event, $(this));
+                });
+                $(window).scroll(() => {
+                    this.onScroll();
+            });
+                $(window).resize(() => {
+                    this.onResize();
+            });
+            }
+            onTabClick(event, element) {
+                event.preventDefault();
+                let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 1;
+                $('html, body').animate({ scrollTop: scrollTop }, 600);
+            }
+            onScroll() {
+                this.checkTabContainerPosition();
+                this.findCurrentTabSelector();
+            }
+            onResize() {
+                if (this.currentId) {
+                    this.setSliderCss();
+                }
+            }
+            checkTabContainerPosition() {
+                let offset = $('.stickyhero-tabs').offset().top + $('.stickyhero-tabs').height() - this.tabContainerHeight;
+                if ($(window).scrollTop() > offset) {
+                    $('.stickyhero-tabs-container').addClass('stickyhero-tabs-container--top');
+                } else {
+                    $('.stickyhero-tabs-container').removeClass('stickyhero-tabs-container--top');
+                }
+            }
+            findCurrentTabSelector(element) {
+                let newCurrentId;
+                let newCurrentTab;
+                let self = this;
+                $('.stickyhero-tab').each(function () {
+                    let id = $(this).attr('href');
+                    let offsetTop = $(id).offset().top - self.tabContainerHeight;
+                    let offsetBottom = $(id).offset().top + $(id).height() - self.tabContainerHeight;
+                    if ($(window).scrollTop() > offsetTop && $(window).scrollTop() < offsetBottom) {
+                        newCurrentId = id;
+                        newCurrentTab = $(this);
+                    }
+                });
+                if (this.currentId != newCurrentId || this.currentId === null) {
+                    this.currentId = newCurrentId;
+                    this.currentTab = newCurrentTab;
+                    this.setSliderCss();
+                }
+            }
+            setSliderCss() {
+                let width = 0;
+                let left = 0;
+                if (this.currentTab) {
+                    width = this.currentTab.css('width');
+                    left = this.currentTab.offset().left;
+                }
+                $('.stickyhero-tab-slider').css('width', width);
+                $('.stickyhero-tab-slider').css('left', left);
+            }
+        }
+        new StickyNavigation();
+    </script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <script>
+        $(function() {
+            $('#myNavbar li a').click(function() {
+                $('#myNavbar li').removeClass();
+                $($(this).attr('href')).addClass('active');
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $(".navbar-toggle").click(function(){
+                $("#myNavbar").slideToggle("slow");
+            });
+        });
+        $(document).ready(function(){
+            $(".navbar-toggle").click(function(){
+                $("#device").css({
+                    "position":"relative","top":"0"
+                });
+            });
+        });
+
+
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).on("scroll", onScroll);
+
+            //smoothscroll
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+                $(document).off("scroll");
+
+                $('a').each(function () {
+                    $(this).removeClass('active');
+                })
+                $(this).addClass('active');
+
+                var target = this.hash,
+                    menu = target;
+                $target = $(target);
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top+2
+                }, 500, 'swing', function () {
+                    window.location.hash = target;
+                    $(document).on("scroll", onScroll);
+                });
+            });
+        });
+
+        function onScroll(event){
+            var scrollPos = $(document).scrollTop();
+            $('.nav-center a').each(function () {
+                var currLink = $(this);
+                var refElement = $(currLink.attr("href"));
+                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                    $('.nav ul li a').removeClass("active");
+                    currLink.addClass("active");
+                }
+                else{
+                    currLink.removeClass("active");
+                }
+            });
+        }
+    </script>
+    <style>
+        .active {
+            font-size: 14px;
+            color: #09f !important;
+            text-decoration: none;
+            line-height: 50px;
+            /*border-bottom: 2px solid #000;*/
+        }
+    </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div class="top_section actlink" id="topsection">
+
+    <div class="col-md-12 l1">
+        <div class="col-md-6 l11">
+            <img src="adv_img/img_header_banner_logo.png" alt="sashcashservices" id="i1" class="wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0s">
+            <img src="adv_img/img_header_banner_bg.png" alt="sashcashservices" id="i2" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
+            <img src="adv_img/img_header_banner_video_slide.png" alt="sashcashservices" id="i3" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.4s">
+            <img src="adv_img/img_header_banner_link_slide.png" alt="sashcashservices" id="i4" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.6s">
+            <img src="adv_img/img_header_banner_poster_slide.png" alt="sashcashservices" id="i5" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.8s">
+            <img src="adv_img/img_header_banner_home_ad_slide.png" alt="sashcashservices" id="i6" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1.2s">
+            <img src="adv_img/img_header_banner_audio_slide.png" alt="sashcashservices" id="i7" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1.4s">
+            <img src="adv_img/img_header_banner_download_slide.png" alt="sashcashservices" id="i8" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1.6s">
+            <img src="adv_img/img_header_banner_shadow.png" alt="sashcashservices" id="i9" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.3s">
+        </div>
+        <div class="col-md-6 l12">
+            <div class="i1"><img src="adv_img/img_sash_logo_12.png" alt="sashcashlogo" class="li12 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.5s"></div>
+            <h1 class="wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.5s">Single Podium</h1>
+            <h6 class="wow fadeIn" data-wow-duration="1.4s" data-wow-delay="1.8s">Solution to reach right <mark>Target Audience</mark></h6>
+            <div id="lg"><a href="#" class="wow fadeIn" data-wow-duration="1.8s" data-wow-delay="2.1s">Login</a></div><br />
+            <p id="advt" class="wow fadeIn" data-wow-duration="2.2s" data-wow-delay="2.4s">To Become an Advertiser</p>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="col-lg-12 l3">
+            <p class="wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0s">We a Digital advertising Agency ready to challenge all traditional forms of advertisement.We serve as an interface between 				advertiser and their audience.Tailored advertsing goals with accuracy to advertiser.</p>
+        </div>
+
+    </div>
+</div>
+
+<div style="clear:both;"></div>
+
+
+
+<div class="top_menu">
+    <section class="stickyhero-tabs">
+
+        <div class="stickyhero-tabs-container">
+
+            <nav class="navbar navbar-default navbar-fixed-top">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--<a class="navbar-brand" href="#myPage">Logo</a>---->
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li> <a class="stickyhero-tab active" href="#topsection">Home</a></li>
+                        <li><a class="stickyhero-tab" href="#benefits">Benefits</a></li>
+                        <li><a class="stickyhero-tab " href="#devicebase">Device base</a></li>
+                        <li><a class="stickyhero-tab" href="#geographic">Geographic</a></li>
+                        <li><a class="stickyhero-tab" href="#demographic">Demographic</a></li>
+                        <li><a class="stickyhero-tab" href="#retarget">Retargeting</a></li>
+                        <li><a class="stickyhero-tab" href="#contact">Contact us</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <!-- <a class="stickyhero-tab" href="#topsection">Home</a>
+
+             <a class="stickyhero-tab" href="#devicebase">Device base</a>
+
+             <a class="stickyhero-tab" href="#geographic">Geographic</a>
+
+             <a class="stickyhero-tab" href="#demographic">Demographic</a>
+
+             <a class="stickyhero-tab" href="#retarget">Retargeting</a>
+
+             <a class="stickyhero-tab" href="#contact">Contact us</a>
+
+             <span class="stickyhero-tab-slider"></span>-->
+
+        </div>
+
+    </section>
+
+    <div style="clear:both;"></div>
+
+    <div id="device" class="actlink">
+        <div class="col-md-12 l4 top" id="benefits">
+            <div class="col-md-12 l4h">
+                <h1 class="wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0s">Benefits for Advertisers</h1>
+            </div>
+        </div>
+        <div class="col-md-12 l5 top">
+            <div class="col-md-4 l5i1">
+                <img src="adv_img/img_app_store_icon.png" alt="appstore" >
+                <p></p>
+                <!--<p class="wow bounceInUp" data-wow-duration="0.4s" data-wow-delay="0.2s"></p>--->
+            </div>
+            <div class="col-md-4 l5i2">
+                <img src="adv_img/img_paly_store_icon.png" alt="playstore" >
+                <p></p>
+                <!---<p class="wow bounceInUp" data-wow-duration="0.4s" data-wow-delay="0.2s"></p>--->
+            </div>
+            <div class="col-md-4 l5i3">
+                <img src="adv_img/img_web_icon.png" alt="webicon" >
+                <!--<p class="wow bounceInUp" data-wow-duration="0.4s" data-wow-delay="0.2s"></p>--->
+                <p></p>
+            </div>
+            <div class="clearfix visible-xs"></div>
+            <div class="col-md-12 l6h" id="devicebase">
+                <h1 class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">Device Based Advertisement Hosting</h1>
+                <p class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">Describes a target approach for customer  who already  own a specific device(mobile phone, tablet, PC). It can create a more  specific  marketing campaign, increase sales, and decrease the number of competitors in the market.</p>
+            </div>
+        </div></div>
+    <div class="bottom_section wow fadeIn actlink" data-wow-duration="0.5s" data-wow-delay="0.5s" id="geographic">
+
+        <div class="col-md-12 l7">
+            <h1  class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1s">Geographic Based Promotion</h1>
+            <div class="col-md-12 l7i">
+                <img src="adv_img/img_geographic_user_icon_yellow_center.png" alt="user1" id="l7i1" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                <img src="adv_img/img_geographic_user_icon_row_4_1.png" alt="user2" id="l7i2" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.6s">
+                <img src="adv_img/img_geographic_user_icon_green.png" alt="user3" id="l7i3" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.7s">
+                <img src="adv_img/img_geographic_user_icon.png" alt="user4" id="l7i4" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.8s">
+                <img src="adv_img/img_geographic_user_icon_blue_lite.png" alt="user5" id="l7i5" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.9s">
+                <img src="adv_img/img_geographic_user_icon_green_lite.png" alt="user6" id="l7i6" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1.0s">
+                <img src="adv_img/img_geographic_user_icon.png" alt="user7" id="l7i7" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1.2s">
+                <img src="adv_img/img_geographic_user_icon_orange.png" alt="user8" id="l7i8" class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1.3s">
+            </div>
+            <div class="col-lg-12 l7p">
+                <p class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.7s">A geographical target can be  consumers in a city, state or country. Advertiser can select based on the  fulfillment of the product. This would allow the team to break the market into sections by climate, density, market size, world or state.</p>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+    <section class="demographic actlink" id="demographic">
+        <div class="dbt_tit">
+            <h1>Demographic Based Target</h1>
+        </div>
+        <div class="demo_user">
+            <div class="col-md-4 du1">
+                <img src="adv_img/img_demographic_left.png" alt="appstore" class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.5s" >
+                <p class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.10s"></p>
+            </div>
+            <div class="col-md-4 du2">
+                <img src="adv_img/img_demographic_mid.png" alt="playstore" class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.15s">
+
+                <p class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.20s"></p>
+            </div>
+            <div class="col-md-4 du3">
+                <img src="adv_img/img_demographic_right.png" alt="webicon" class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.25s" >
+                <p class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.30s"></p>
+
+            </div>
+            <div style="clear:both;"></div>
+            <div class="dbt_cont">
+                <p>Advertiser can differentiate their audience based  on a specific gender, age group, income level, or education level. It define the needs and preference match the product range of a brand.</p>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix visible-xs"></div>
+    <section class="retargeting actlink" id="retarget">
+        <div class="rt_tit">
+            <h1>Retargeting</h1>
+        </div>
+        <div class="rt_user">
+
+            <!--<div class="col-md-12 rti1">
+                <img src="img/img_retagetting_audience.png" alt="demographic user1">
+                <img src="img/img_retarget.png" alt="demographic user1">
+
+            </div>--->
+            <div class="col-md-12 rti1">
+                <!--svg>
+                  <rect width="100%" height="100%" fill="#E7E7E8"/>
+                  <image href="img/img_retagetting_audience.png" width="100%" height="100%" />
+                </svg-->
+
+                <!--svg>
+                  <defs>
+                    <clipPath id="mask">
+                      <circle id="mask-circle" cx="50%" cy="50%" r="8%" style="fill: #ffffff"/>
+                    </clipPath>
+                  </defs>
+                    <g clip-path="url(#mask)">
+                    <rect width="100%" height="100%" fill="#272730"/>
+                    <image href="img/img_retarget.png" width="100%" height="100%" />
+                  </g>
+                  <circle id="circle-shadow" cx="50%" cy="50%" r="8%" style="stroke: #fff; fill: transparent; stroke-width: 5;" />
+                </svg-->
+                <svg>
+                    <rect width="100%" height="100%" fill="#E7E7E8"/>
+                    <image href="adv_img/img_retagetting_audience.png" width="100%" height="100%" />
+                </svg>
+
+                <!--svg><!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="200" width="640">--->
+                <!--defs>
+                  <clipPath id="mask">
+                    <circle id="mask-circle" cx="50%" cy="50%" r="8%" style="fill: #ffffff"/>
+                  </clipPath>
+                </defs>
+                  <g clip-path="url(#mask)">
+                  <rect width="100%" height="100%" fill="#272730"/>
+                  <image href="img/img_retarget.png" width="100%" height="100%" />
+                </g>
+                <circle id="circle-shadow" cx="50%" cy="50%" r="8%" style="stroke: #fff; fill: transparent; stroke-width: 5;" />
+              </svg-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+                    <rect width="100%" height="100%" fill="#ffffff"/>
+                    <image xmlns:xlink= "http://www.w3.org/1999/xlink" xlink:href="adv_img/img_retargeting_final_12.png" width="100%" height="100%"  />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+                    <defs>
+                        <clipPath id="mask">
+                            <circle id="mask-circle" cx="50%" cy="50%" r="14.5%" style="fill: #ffffff"/>
+                        </clipPath>
+                    </defs>
+                    <g clip-path="url(#mask)">
+                        <rect width="100%" height="100%" fill="#fff"/>
+                        <image xmlns:xlink= "http://www.w3.org/1999/xlink" xlink:href="adv_img/img_retargeting_final.png" width="100%" height="100%" />
+                    </g>
+                    <circle id="circle-shadow" cx="50%" cy="50%" r="14.5%" style="stroke: #fff; fill: transparent; stroke-width: 3;" />
+                </svg>
+
+            </div>
+        </div>
+        <div class="rt_cont">
+            <p>Retargeting customized base on the interest, behavior of the specifically targeted audience. This enables the business to use its marketing resources more efficiently, resulting in more cost and time efficient marketing efforts .</p>
+        </div>
+    </section>
+    <div style="clear:both;"></div>
+    <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center actlink">
+        <div class="sub_container_contact marginbot-50">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="animatedParent">
+                    <div class="section-heading text-center">
+                        <h2>Contact Us</h2>
+                        <div class="divider-header"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sub_container_contact">
+
+
+            <div class="col-md-6">
+                <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>---->
+                <div id="errormessage"></div>
+                <form id="contact-form" action="" method="post" role="form" class="contactForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="phone" placeholder="Phone no" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <select class="form-control" name="Subject" id="Subject" placeholder="Subject" >
+
+                                    <option><a href="">General</a> </option>
+                                    <option><a href="">New Business</a></option>
+                                    <option><a href="">Complaints</a></option>
+                                    <option><a href="">Others</a> </option>
+
+                                </select>
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="textarea" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                            </div>
+                            <button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
+                                Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6 contact_right">
+                <div class="row">
+                    <div class="col-md-8 text-left">
+                        <h2 class="contact_right_title"><i class="fa fa-envelope"></i>Mail us:</h2>
+                        <ul>
+                            <li><a href="mailto:enquiry@sash.cash">enquiry@sash.cash</a></li>
+                            <!--<li><a href="">support@sash.cash</a></li>
+                            <li><a href="">advertiser@sash.cash</a></li>--->
+                        </ul>
+
+                    </div>
+                </div>
+                <!--<hr>-->
+                <!--<div class="row">-->
+                <!--<div class="col-md-8 text-left">-->
+                <!--<h2 class="contact_right_title"><i class="fa fa-phone-square"></i>&nbsp;Call us:</h2>-->
+                <!--<ul>-->
+                <!--<li>044 - 28333377</li>-->
+                <!--</ul>-->
+
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="row">-->
+                <!--<div class="col-md-8 text-left">-->
+                <!--<h2 class="contact_right_title2"><i class="fa fa-clock-o"></i>Working</h2>-->
+                <!--<ul>-->
+                <!--<li>9 : 00 AM - 7 : 00 PM</li>-->
+                <!--</ul>-->
+
+                <!--</div>-->
+                <!--</div>-->
+
+                <!--</div>-->
+                <!--</div> -->
+
+    </section>
+
+
+    <div style="clear:both;"></div>
+    <footer>
+        <div class="footer_container actlink">
+            <div class="row">
+
+                <!--<div class="col-md-3 text-left">-->
+                <!--<ul class="footer-menu_one">-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#intro">Home</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#about_us">Benefits</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#about_us">Device base</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#whysash">Geographic</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#howwedo">Demographic</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#partners">Retargeting</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#contact">Contact Us</a></li>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;<div class="animatedParent">-->
+                <!--<li class="wow bounceInDown"><a href="#">Careers</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class="wow bounceInDown"><a href="#">News</a></li>-->
+                <!--</div>&#45;&#45;&ndash;&gt;-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="col-md-3 text-left">-->
+                <!--<ul class="footer-menu_two">-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#">Careers</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#">News</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#">User</a></li>-->
+                <!--</div>-->
+                <!--<div class="animatedParent">-->
+                <!--<li class=""><a href="#">Advertiser</a></li>-->
+                <!--</div>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <div class="col-md-8 text-left">
+                    <ul class="footer-menu_three">
+                        <li class=""><a href="#">Privacy Policy</a></li>
+
+
+                        <li class=""><a href="#">Terms & Conditions</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4 text-right copyright">
+                    <div class="animatedParent">
+                        <div class="col-md-12 copyright_img ">
+                            <a href="https://play.google.com/store/apps/details?id=com.sashcash.user
+"><img src="adv_img/img_play_store_icon.png"></a>
+                            <a href="#"><img src="adv_img/img_web_login.png"></a>
+                            <a href="
+https://itunes.apple.com/in/app/sash.cash/id1142168435?mt=8"><img src="adv_img/img_app_store.png"></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-12 social_media social_media_div">
+                <div class="animatedParent">
+                    <div class="">
+                        <!--<span class="soci_title">Follow Us:</span>--->
+                        <span class="sici_icon"><a href="
+https://www.facebook.com/sashdigitaladvertisement/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                        <span class="sici_icon"><a href="https://twitter.com/sashdigitalads"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                        <span class="sici_icon"><a href="https://www.linkedin.com/company/sash.cash?trk=nav_account_sub_nav_company_admin
+"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                        <span class="sici_icon"><a href="
+https://in.pinterest.com/sashdigitalads/"> <i class="fa fa-pinterest" aria-hidden="true"></i></a></span>
+                        <span class="sici_icon"><a href="
+https://plus.google.com/u/0/102435496296429860392"> <i class="fa fa-google-plus" aria-hidden="true"></i></a></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-12 foot_copy">
+                <p>Copyrights &copy; 2017 Sash Digital Advertisement Private Limited. All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript">
+
+
+        var svgElement = document.querySelector('svg');
+        var maskedElement = document.querySelector('#mask-circle');
+        var circleFeedback = document.querySelector('#circle-shadow');
+        var svgPoint = svgElement.createSVGPoint();
+
+        function cursorPoint(e, svg) {
+            svgPoint.x = e.clientX;
+            svgPoint.y = e.clientY;
+            return svgPoint.matrixTransform(svg.getScreenCTM().inverse());
+        }
+
+        function update(svgCoords) {
+            maskedElement.setAttribute('cx', svgCoords.x);
+            maskedElement.setAttribute('cy', svgCoords.y);
+            circleFeedback.setAttribute('cx', svgCoords.x);
+            circleFeedback.setAttribute('cy', svgCoords.y);
+        }
+
+        window.addEventListener('mousemove', function(e) {
+            update(cursorPoint(e, svgElement));
+        }, false);
+
+        document.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+            var touch = e.targetTouches[0];
+            if (touch) {
+                update(cursorPoint(touch, svgElement));
+            }
+        }, false);
+    </script>
+
+    <style>
+        .slideanim {visibility:hidden;}
+        .slide {
+            animation-name: slide;
+            -webkit-animation-name: slide;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            visibility: visible;
+        }
+        @keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
+        @-webkit-keyframes slide {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .col-sm-4 {
+                text-align: center;
+                margin: 25px 0;
+            }
+            .btn-lg {
+                width: 100%;
+                margin-bottom: 35px;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .logo {
+                font-size: 150px;
+            }
+        }
+    </style>
+
+
+
+
+</body>
+</html>
