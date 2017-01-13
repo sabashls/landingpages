@@ -18,15 +18,11 @@ app.use(bodyParser.json())
 app.use(cookieParser());
 
 
-app.get('/', admin.login);
-app.get('/user', admin.user);
-app.get('/home',admin.home);
-app.get('/myinfo',admin.myinfo);
-app.get('/signout',admin.signout);
-app.post('/login',admin.loginPost); 
-app.post('/setting',admin.settingPost); 
-app.post('/change_password',admin.change_password); 
-app.post('/change_bg_image',admin.change_bg_image); 
+app.get('/advertiser_benefits', admin.login);
+app.get('/user_benefits', admin.user);
+app.get('/termsandconditions', admin.terms);
+app.get('/carrier', admin.carrier);
+
 
 
 http.listen(2222);
